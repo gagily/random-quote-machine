@@ -1,0 +1,33 @@
+body {
+	background-color: #00ccff !important;
+	margin: 0;
+	height: 100vh;
+	position: relative;
+}
+
+p{
+	display: inline;
+	padding: 2px;
+
+}
+
+
+.centered {
+	background-color: white;
+	width: 60%;
+	margin: auto;
+	top: 35%;
+	left: 20%;
+	position: absolute;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.fa {
+	color: white;
+	width: 20px;
+}
+
+#new-quote {
+	float: right;
+}
