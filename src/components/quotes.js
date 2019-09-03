@@ -10,8 +10,7 @@ class Quotes extends React.Component {
              <footer className="blockquote-footer"><cite title="Source Title" id="author">{this.props.author}</cite></footer>
            </blockquote>
            <div className="buttons">
-             <a className="btn btn-info" href="https://twitter.com/intent/tweet" id="tweet-quote" title="Tweet this quote!" target="_blank">
-               <i className="fa fa-twitter"></i>
+             <a className="btn btn-info" href="https://twitter.com/intent/tweet" id="tweet-quote" title="Tweet this quote!" target="_blank">               <i className="fa fa-twitter"></i>
              </a>
              <a className="btn btn-info" href="https://www.tumblr.com/tagged/create-posts" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
                <i className="fa fa-tumblr"></i>
